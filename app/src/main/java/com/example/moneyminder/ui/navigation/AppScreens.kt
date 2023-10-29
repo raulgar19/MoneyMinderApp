@@ -1,0 +1,26 @@
+package com.example.moneyminder.ui.navigation
+
+sealed class AppScreens(val route : String) {
+    object LoginScreen : AppScreens("loginScreen")
+    object MenuPrincipalScreen : AppScreens("menuScreen")
+    object PerfilScreen : AppScreens("perfilScreen")
+    object GastosScreen : AppScreens("gastosScreen")
+    object IngresosScreen : AppScreens("ingresosScreen")
+    object AddUsuarioScreen : AppScreens("addUsuarioScreen")
+    object UpdateUsuarioScreen : AppScreens("updateUsuarioScreen")
+    object UpdateCorreoScreen : AppScreens("updateCorreoScreen")
+    object AjustesScreen : AppScreens("ajustesScreen")
+    object InfoScreen : AppScreens("infoScreen")
+    object PassScreen : AppScreens("passScreen")
+    object PassCuentaScreen : AppScreens("passCuentaScreen")
+    object UpdatePassScreen : AppScreens("updatePassScreen")
+    object AjusteUsuarioScreen : AppScreens("ajusteUsuarioScreen")
+    object AjusteCuentaScreen : AppScreens("ajusteCuentaScreen")
+    object AjustePassScreen : AppScreens("ajustePassScreen")
+    object AddGastoScreen : AppScreens("addGastoScreen")
+    object AddIngresoScreen : AppScreens("addIngresoScreen")
+    object SoporteAndComentariosScreen : AppScreens("soporteAndComentarios")
+    object TerminosScreen : AppScreens("terminosScreen")
+    object GastosGrafScreen : AppScreens("gastosGrafScreen")
+    object IngresosGrafScreen : AppScreens("ingresosGrafScreen")
+}
